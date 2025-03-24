@@ -1,0 +1,8 @@
+TopDown : WASD + Mouse LookAt
+
+1 - Setup keys WASD (with down + negate)
+2 - Modify controller blueprint to trap inputs 
+3 - Create interface (BPI_Lookat) and add Target as variable (Vector)
+4 - Modify Controller to pass mouse position to the character (LookAt)
+5 - Modify Character to implement LookAt (Interface)
+
